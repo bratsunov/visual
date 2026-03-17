@@ -1,8 +1,4 @@
 {
-  "devDependencies": {
-    "@types/node": "^25.5.0",
-    "vitest": "^4.1.0"
-  },
   "name": "visual",
   "version": "1.0.0",
   "description": "",
