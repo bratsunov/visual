@@ -10,7 +10,7 @@
   "scripts": {
     "test": "vitest",
     "test:ci": "vitest run",
-    "start": "ts-node lab4.ts"
+    "start": "ts-node lab5.ts"
   },
   "repository": {
     "type": "git",
