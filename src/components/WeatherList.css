@@ -1,0 +1,36 @@
+.weather-list {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.weather-list-header {
+  text-align: center;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.weather-list-header h2 {
+  font-size: 32px;
+  margin-bottom: 8px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+.weather-list-header p {
+  font-size: 16px;
+  opacity: 0.9;
+}
+
+.weather-list-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.weather-list-empty {
+  text-align: center;
+  color: white;
+  padding: 40px;
+}

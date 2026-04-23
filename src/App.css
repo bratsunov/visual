@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  min-height: 100vh;
+  transition: background 0.5s ease;
+}
+
+.app-container {
+  min-height: 100vh;
+  padding: 20px;
+  backdrop-filter: brightness(0.95);
+  width: 100%;
+}
+
+.app-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  opacity: 0.9;
+}
+
+.date-title {
+  font-size: 24px;
+  font-weight: 400;
+  opacity: 0.9;
+  text-transform: capitalize;
+}
+
+.weather-title {
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.mock-toggle {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.mock-toggle label {
+  color: white;
+  background: rgba(0,0,0,0.3);
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.mock-toggle input {
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  color: white;
+}
+
+.error {
+  background: rgba(255,0,0,0.8);
+  color: white;
+  padding: 12px 20px;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 400px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.error button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.welcome {
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+}
+
+.welcome p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.example-cities {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.example-cities span {
+  background: rgba(255,255,255,0.2);
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}

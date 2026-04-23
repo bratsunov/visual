@@ -1,0 +1,89 @@
+.current-weather {
+  background: transparent;
+  border-radius: 30px;
+  padding: 24px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.current-date {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 8px;
+}
+
+.current-city {
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 24px;
+}
+
+.current-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.current-temp {
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+}
+
+.temp-value {
+  font-size: 72px;
+  font-weight: bold;
+  color: white;
+}
+
+.temp-unit {
+  font-size: 24px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.current-icon img {
+  width: 80px;
+  height: 80px;
+}
+
+.current-details {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+}
+
+.detail-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.detail-label {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.6);
+  text-transform: uppercase;
+}
+
+.detail-value {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .current-details {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .temp-value {
+    font-size: 48px;
+  }
+  
+  .current-city {
+    font-size: 22px;
+  }
+}
